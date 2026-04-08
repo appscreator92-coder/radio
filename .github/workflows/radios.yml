@@ -31,6 +31,5 @@ jobs:
       - name: Commit and push playlists
         run: |
         
-          git add *.m3u
           git commit -m "Update Radio playlists"
           git push
